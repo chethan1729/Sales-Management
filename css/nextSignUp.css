@@ -1,0 +1,82 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext);
+@media (min-width: 768px) 
+{
+    .onl_row-sm-offset-3 div:first-child[class*="col-"] 
+    {
+        margin-left: 30%;
+    }
+}
+
+.container
+{
+	border: 3px solid #000000;
+	padding-top: 15px;	
+}
+
+
+/* ----------------------------- padding for (1) GRID -------------- */
+.pad 
+{
+	padding-top: 10px;													
+    padding-right: 0px;												
+    padding-bottom: 10px;												
+    padding-left: 100px	
+}
+
+/* ----------------------------- padding for (3) sign in with accnt heading-------------- */
+.pad1 
+{
+	padding-top: 1px;													
+    padding-right: 1px;												
+    padding-bottom: 1px;												
+    padding-left: 90px	
+}
+
+/* ----------------------------- padding for (2) GRID -------------- */
+.pad2
+{
+	padding-top: 10px;													
+    padding-right: 200px;												
+    padding-bottom: 10px;												
+    padding-left: 1px	
+}
+
+
+body 
+{
+    font-family: 'Titillium Web', sans-serif; 
+}
+
+.onl_login .onl_authTitle 
+{
+
+    text-align: center;
+    padding-top: 10px;													
+    padding-right: 170px;												
+    padding-bottom: 10px;												
+    padding-left: 10px
+	line-height: 150%;
+}
+	
+.onl_login .onl_socialButtons a
+{
+	color: 	#008B8B;  
+	opacity:0.9;
+}
+
+.onl_login .onl_socialButtons a:hover {
+    color: 	#008B8B;
+	opacity:1;    	
+}
+
+		
+
+.onl_login .onl_loginForm .input-group.i {
+	width: 2em;
+}
+.onl_login .onl_loginForm  .help-block {
+    color: red;
+}
+
+	

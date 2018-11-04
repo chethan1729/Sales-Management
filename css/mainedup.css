@@ -1,0 +1,266 @@
+
+/* ----------------------- navigation bar ---------------------------------- */
+
+nav:hover
+{
+	background: rgb(0,0,0);
+
+	 
+}
+
+.logo
+{
+
+	padding:0px 0px;
+	font-size:2.5em;
+	line-height:20px;
+	color:rgb(255, 87, 0);
+	text-decoration: none;
+	font-family: 'Passion One', cursive;
+}
+
+.logo1
+{
+
+	padding:0px 0px;
+	font-size:2.5em;
+	line-height:20px;
+	color: rgb(255, 255, 0);
+	text-decoration: none;
+	font-family: 'Passion One', cursive;
+}
+
+.navbar-nav a
+{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	font-weight: 30;
+	color: black;
+	text-decoration: none;
+	opacity:0.5;
+	transition: all 0.3s ease-in;
+	letter-spacing:2px;
+}
+
+.navbar-nav a:hover
+{
+	
+	opacity:1;
+	transition: all 0.3s ease-in;
+	
+}
+
+.dropdown-menu
+{
+	
+    background:  rgb(0,0,0);
+    
+}
+.dropdown-menu>li>a
+{
+	color:white;
+	opacity:0.5;
+	
+}
+
+.navbar-custom 
+{
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #696969;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+}
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+/* #################################### chat bar ####################################### */
+
+           
+ 
+/* --------------ask ques bar ------------------ */
+
+.form-horizontal
+{
+	padding-top: 130px;													
+    padding-right:0px;												
+    padding-bottom: 100px;												
+    padding-left: 100px	;
+ 
+}
+ 
+
+
+
+ /* ---------------------------------- post button ---------------------- */
+.padpost
+{
+	padding-top: 120px;													
+    padding-right:0px;												
+    padding-bottom: 0px;												
+    padding-left: 970px	;
+}
+
+
+#contact>.container
+{
+	-webkit-transition: all .3s ease;
+	animation: draw 2s ease-in-out;
+}
+
+#discription>.container
+{
+	-webkit-transition: all .3s ease;
+	animation: draw 2s ease-in-out;
+}
+	
+
+
+.btn-default 
+{
+    border-color: #fff;
+    color: #222;
+    background-color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default 
+{
+    border-color: #ededed;
+    color: #222;
+    background-color: #f05f40;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn-default .badge 
+{
+    color: #fff;
+    background-color: #222;
+}
+
+.btn 
+{
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+}
+
+.btn-xl 
+{
+    padding: 15px 30px;
+}
+
+
+/* --------------------------------------------------------------------------- */
+ 
